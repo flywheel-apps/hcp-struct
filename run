@@ -295,6 +295,7 @@ ${RUN_PRE} ${FSLDIR}/bin/fsl_sub ${QUEUE} ${FSLSUBOPTIONS} \
     --SEPhaseNeg="$SpinEchoPhaseEncodeNegative" \
     --SEPhasePos="$SpinEchoPhaseEncodePositive" \
     --echospacing="$DwellTime" \
+    --dwell="$DwellTime" \
     --seunwarpdir="$SEUnwarpDir" \
     --t1samplespacing="$T1wSampleSpacing" \
     --t2samplespacing="$T2wSampleSpacing" \
